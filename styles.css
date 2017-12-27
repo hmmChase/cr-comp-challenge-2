@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 145px;
+  background-color: #2B2B2B;
+  padding: 10px;
+  color: #999999;
+}
+
+.username {
+  float: right;
+  text-align: center;
+  color: #c0c000;
+  margin-right: 10px;
+}
+
+.username p {
+  display: inline;
+  font-size: .9em;
+}
+
+.username img {
+  vertical-align: middle;
+}
+
+.user {
+  height: 23px;
+  margin-right: 3px;
+}
+
+.down {
+  height: 12px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.logo {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+}
+
+.logo h1 {
+  display: inline;
+  font-family: 'Vollkorn', serif;
+  color: white;
+  font-size: 3em;
+}
+
+.logo img {
+  height: 40px;
+  margin-bottom: 25px
+}
+
+nav {
+  margin-top: 60px;
+}
+
+ul {
+  margin: 70px 0 0 20px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 1.1em;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+ul img {
+  height: 20px;
+}
+
+.li1 p {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.li2 p {
+  vertical-align: middle;
+}
+
+.li3 p {
+  margin-left: 5px;
+  margin-right: 0;
+  vertical-align: middle;
+}
+
+.li3 {
+  margin-right: 0;
+}
+
+.active {
+  color: white;
+}
+
+.menu {
+  display: inline;
+}
+
+main {
+  background-color: #EFEFEF;
+  padding: 1px;
+}
+
+.wears {
+  font-size: 2.5em;
+  margin: 20px;
+  font-weight: 600;
+  color: #4D4D4D;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article {
+  height: 400px;
+  min-width: 280px;
+  max-width: 280px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  margin: 5px;
+  color: #4D4D4D;
+  font-weight: 600;
+  font-size: .9em;
+}
+
+.article-top {
+  width: 100%;
+  height: 35%;
+  background-image: url(images/clothes.png);
+  overflow: hidden;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+article img {
+  height: 25px;
+}
+
+.turn-arrow {
+  margin: 10px 0 0 10px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+  float: left;
+}
+
+.article-top p {
+  float: right;
+  color: white;
+  font-weight: 400;
+  font-size: .8em;
+  margin: 10px;
+  text-shadow: .5px 0 black;
+}
+
+.article-top span {
+  font-weight: 400;
+  font-size: 2.5em;
+  display: block;
+}
+
+.article-bottom {
+  height: 65%;
+  padding: 15px 20px 0 20px;
+  word-break: break-all;
+  background-color: white;
+}
+
+.date {
+  font-size: .8em;
+  color: #939498;
+}
+
+.link {
+  height: 50px;
+  background-color: #EFEFEF;
+  margin: 10px 0 10px 0;
+  padding: 5px;
+  font-size: .9em;
+}
+
+.item {
+  font-size: .9em;
+}
+
+.description {
+  margin: -5px 0 10px 0;
+}
+
+.wears-card {
+  margin: 10px 0 -10px 0;
+}
+
+.wear-number {
+  color: #c0c000;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+  }
+  ul {
+    margin: 100px 0 0 10px;
+  }
+  .wears {
+    font-size: 1.5em;
+    margin: 10px;
+    font-weight: 600;
+    color: #4D4D4D;
+  }
+  .li1 {
+    margin-right: 10px;
+  }
+  .li2 {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 650px) and (min-width: 401px) {
+  header {
+    height: 145px;
+  }
+  ul {
+    margin: 100px 0 0 20px;
+  }
+  .logo {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+  }
+}
